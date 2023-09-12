@@ -1,4 +1,4 @@
-
+/* 
 html,
 body {
   height: 100%;
@@ -68,7 +68,8 @@ body {
   -o-box-shadow: 0 0 20px #ccc;
   -ms-box-shadow: 0 0 20px #ccc;
   box-shadow: 0 0 20px #ccc;
-}
+} */
+
 .left-side-filter{
   width: 18%;
   float: left;

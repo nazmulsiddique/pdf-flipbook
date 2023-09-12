@@ -3,25 +3,25 @@ function loadApp() {
 	// Create the flipbook
 
 	$('.flipbook').turn({
-			// Width
+		// Width
 
-			width:1920,
-			
-			// Height
+		width:922,
+		
+		// Height
 
-			height:612,
+		height:600,
 
-			// Elevation
+		// Elevation
 
-			elevation: 50,
-			
-			// Enable gradients
+		elevation: 50,
+		
+		// Enable gradients
 
-			gradients: true,
-			
-			// Auto center this flipbook
+		gradients: true,
+		
+		// Auto center this flipbook
 
-			autoCenter: true
+		autoCenter: true
 
 	});
 }
