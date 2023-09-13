@@ -3,7 +3,7 @@
 			
 			<ul class="navbar">
 				<img src="pics/logo-walton.png" alt="" width="200px">
-				<li><a class="active" href="index.php">Refrigerator</a></li>
+				<li><a href="index.php">Refrigerator</a></li>
 				<li><a href="tv.php">Air Conditioner</a></li>
 				<li><a href="#">Fan</a></li>
 				<li><a href="#">Acc Brand</a></li>

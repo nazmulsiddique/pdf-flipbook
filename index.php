@@ -12,20 +12,18 @@
 		<div class="flipbook-viewport">
 			<div class="container">
 				<div class="flipbook">
-					<div style="background-image:url(pages/refrigerator/1.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/2.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/3.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/4.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/5.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/6.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/7.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/8.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/9.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/10.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/11.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/13.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/14.jpg)"></div>
-					<div style="background-image:url(pages/refrigerator/15.jpg)"></div>
+					<div class="page"  style="background-image:url(pages/refrigerator/1.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/2.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/3.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/4.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/5.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/6.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/7.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/8.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/9.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/10.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/11.jpg)"></div>
+					<div class="double" style="background-image:url(pages/refrigerator/13.jpg)"></div>
 				</div>
 			</div>
 		</div>
@@ -38,39 +36,42 @@
 
 function loadApp() {
 
-	// Create the flipbook
+var flipbook = $('.flipbook');
 
-	$('.flipbook').turn({
-			// Width
+ // Check if the CSS was already loaded
 
-			width:922,
-			
-			// Height
+if (flipbook.width()==0 || flipbook.height()==0) {
+	setTimeout(loadApp, 10);
+	return;
+}
 
-			height:600,
+$('.flipbook .double').scissor();
 
-			// Elevation
+// Create the flipbook
 
-			elevation: 50,
-			
-			// Enable gradients
+$('.flipbook').turn({
+		// Elevation
 
-			gradients: true,
-			
-			// Auto center this flipbook
+		elevation: 50,
+		
+		// Enable gradients
 
-			autoCenter: true
+		gradients: true,
+		
+		// Auto center this flipbook
 
-	});
+		autoCenter: true
+
+});
 }
 
 // Load the HTML4 version if there's not CSS transform
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['lib/turn.js'],
+	yep: ['lib/turn.min.js'],
 	nope: ['lib/turn.html4.min.js'],
-	both: ['css/basic.css'],
+	both: ['lib/scissor.min.js', 'css/double-page.css'],
 	complete: loadApp
 });
 
