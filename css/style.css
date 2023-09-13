@@ -69,12 +69,16 @@ body {
   -ms-box-shadow: 0 0 20px #ccc;
   box-shadow: 0 0 20px #ccc;
 } */
-
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .left-side-filter{
   width: 15%;
   height: 100vh;
   float: left;
-  background: #192D4D;
+  background: #001D4D;
   z-index: 999;
 }
 .middle-side-book{
@@ -89,20 +93,29 @@ body {
   background: #F1F1F1;
   padding: 20px;
 }
+.left-side img {
+  text-align: center;
+  padding: 30px 15px 70px 0px;
+}
 .left-side ul{
   list-style: none;
   padding: 0;
-  margin: 0;
+  width: 220px;
+  text-align: center;
+  margin: 0 auto;
 }
 .left-side ul li{
-  margin-bottom: 2px;
+  margin-bottom: 15px;
+
 }
 .left-side ul li a{
+  border-radius: 11px;
+  border: 1px solid #F3F3F3;
+  background: linear-gradient(180deg, #1D61CE 0%, #132F5E 100%);
   text-decoration: none;
   color: #fff !important;
-  background: #1A3C73; 
   font-weight: bold;
-  padding: 18px 15px;
+  padding: 24px 15px;
   display: block;
   opacity: 0.8;
   cursor: pointer;
@@ -115,7 +128,13 @@ body {
   background: #135ed6; 
   opacity: 1;
 }
-
+.info{
+  color: #fff;
+  padding: 20px 10px 10px 30px;
+}
+.info h2{
+  border-bottom: 2px solid #8c8c8c;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -137,10 +156,18 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  text-align: center;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #135ed6;
+}
+
+.right-side img{
+  padding: 30px 15px 40px 40px;;
+}
+.download p{
+  text-align: center;
+  margin: 50px 5px 10px 5px;
 }
