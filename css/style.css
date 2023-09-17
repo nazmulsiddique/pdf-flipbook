@@ -97,7 +97,7 @@ body{
   text-align: center;
   padding: 30px 15px 70px 0px;
 }
-.left-side ul{
+/* .left-side ul{
   list-style: none;
   padding: 0;
   width: 220px;
@@ -123,18 +123,18 @@ body{
 .left-side ul li a:hover{
   background: #135ed6; 
   opacity: 1;
-}
+} */
 /* .left-side .navbar a.active {
   background: #135ed6; 
   opacity: 1;
 } */
 /* Highlight the active link */
-nav a.active {
+/* nav a.active {
   background-color: #fff;
   color: #333;
   border-radius: 5px;
   padding: 5px 10px;
-}
+} */
 .info{
   color: #fff;
   padding: 20px 10px 10px 30px;
