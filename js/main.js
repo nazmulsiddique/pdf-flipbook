@@ -1,6 +1,12 @@
-$(document).ready(function(){
-    $('ul li a').click(function(){
-      $('li a').removeClass("active");
-      $(this).addClass("active");
-    });
+$(document).ready(function() {
+  $("#button1").click(function() {
+    $(this).addClass("active");
+    $("#button2").removeClass("active");
+  });
+
+  $("#button2").click(function() {
+    $(this).addClass("active");
+    $("#button1").removeClass("active");
+  });
 });
+

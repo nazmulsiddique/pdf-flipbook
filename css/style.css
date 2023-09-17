@@ -124,9 +124,16 @@ body{
   background: #135ed6; 
   opacity: 1;
 }
-.left-side .navbar a.active {
+/* .left-side .navbar a.active {
   background: #135ed6; 
   opacity: 1;
+} */
+/* Highlight the active link */
+nav a.active {
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 .info{
   color: #fff;
