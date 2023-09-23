@@ -79,7 +79,8 @@ body{
   height: 100vh;
   float: left;
   background: #001D4D;
-  z-index: 999;
+  position: relative;
+  z-index: 99999 !important;
 }
 .middle-side-book{
   width: 70%;
