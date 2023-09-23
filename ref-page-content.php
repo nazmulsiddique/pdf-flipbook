@@ -2,7 +2,7 @@
     <div class="flipbook-viewport">
         <div class="container">
             <div class="flipbook">
-                <div class="page"  style="background-image:url(pages/refrigerator/1.jpg)"></div>
+                <div class="page1"  style="background-image:url(pages/tv/4.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/2.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/3.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/4.jpg)"></div>
@@ -37,6 +37,8 @@ $('.flipbook .double').scissor();
 // Create the flipbook
 
 $('.flipbook').turn({
+        width: 810,
+		height: 612,
 		// Elevation
 
 		elevation: 50,
