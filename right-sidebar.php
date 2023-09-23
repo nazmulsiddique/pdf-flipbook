@@ -2,13 +2,13 @@
 	<div class="right-side">
 		<div class="container">
 			<img src="pics/acc-logo.png" alt="" width="200px">
-			<form action="">
+			<form id="download_catalog" action="">
 				<p><strong>Mail Me</strong></p>
 				<input type="text" id="fname" name="fullname" placeholder="Write Your name..">
 			
-				<input type="text" id="email" name="email" placeholder="Write Your email..">
+				<input type="email" id="email" name="email" placeholder="Write Your email..">
 			
-				<input type="text" id="mobile" name="mobile" placeholder="Write Your mobile..">
+				<input type="number" id="mobile" name="mobile" placeholder="Write Your mobile..">
 
 				<textarea id="message" name="message" placeholder="Write your message.." style="height:100px"></textarea>
 
@@ -33,3 +33,29 @@
 			</div>
 	</div>
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("#download_catalog").submit(function(event) {
+		event.preventDefault();
+		
+
+		var formData = $(this).serialize();
+		
+		$.ajax({
+			type: "POST",
+			url: "process.php",
+			data: formData,
+			success: function(response) {
+			console.log("Form submitted successfully.");
+			
+			$("#download_catalog")[0].reset();
+			},
+			error: function(xhr, status, error) {
+
+			console.error("Error: " + error);
+			}
+		});
+		});
+	});
+</script>
