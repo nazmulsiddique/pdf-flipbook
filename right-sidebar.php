@@ -12,15 +12,15 @@
 
 				<textarea id="message" name="message" placeholder="Write your message.." style="height:100px"></textarea>
 
-				<input type="radio" id="refrigerator" name="calalog_type" value="refrigerator">
+				<input type="radio" id="refrigerator" name="catalog_type" value="refrigerator">
 				<label for="refrigerator">Refrigerator</label>
-				<input type="radio" id="air_conditioner" name="calalog_type" value="air_conditioner">
+				<input type="radio" id="air_conditioner" name="catalog_type" value="air_conditioner">
 				<label for="air_conditioner">Air Conditioner</label><br><br>
-				<input type="radio" id="fan" name="calalog_type" value="fan">
+				<input type="radio" id="fan" name="catalog_type" value="fan">
 				<label for="fan">Fan</label>
-				<input type="radio" id="acc_brand" name="calalog_type" value="acc_brand">
+				<input type="radio" id="acc_brand" name="catalog_type" value="acc_brand">
 				<label for="acc_brand">ACC Brand</label>
-				<input type="radio" id="all" name="calalog_type" value="all">
+				<input type="radio" id="all" name="catalog_type" value="all">
 				<label for="all">All Catalogs</label><br><br>
 			
 				<input type="submit" value="Send">
