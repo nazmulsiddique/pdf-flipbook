@@ -38,8 +38,8 @@ $('.flipbook .double').scissor();
 // Create the flipbook
 
 $('.flipbook').turn({
-        width: 1100,
-		height: 830,
+        // width: 1100,
+		// height: 830,
 		// Elevation
 
 		elevation: 50,

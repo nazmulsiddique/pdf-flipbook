@@ -71,3 +71,27 @@ body{
 	height:830px;
 	background-size:100% 100%;
 }
+
+@media (max-width: 1280px) {
+
+	.flipbook-viewport .flipbook{
+		width:662px;
+		height:500px;
+		left:-331px;
+		top:-250px;
+	}
+	
+	.flipbook-viewport .page{
+		width:662px;
+		height:500px;
+		background-color:white;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+	}
+	.flipbook-viewport .double{
+		width:662px;
+		height:500px;
+		background-size:100% 100%;
+	}
+	
+}
