@@ -2,13 +2,13 @@
 	<div class="right-side">
 		<div class="container">
 			<img src="pics/acc-logo.png" alt="" width="200px">
-			<form id="download_catalog" class="formBox" action="">
+			<form id="download_catalog" action="">
 				<p><strong>Mail Me</strong></p>
 				<div id="loader">
-					<img src="pics/loader.gif">
+					<img src="pics/lodar.gif">
 				</div>
-				<div id="response_data"></div>
-				<input type="text" id="fname" name="fullname" placeholder="Write Your name.." required>
+				<div id="response_data"></div><br>
+				<input type="text" id="full_name" name="full_name" placeholder="Write Your name.." required>
 			
 				<input type="email" id="email" name="email" placeholder="Write Your email.." required>
 			
@@ -51,26 +51,28 @@ $(document).ready(function() {
             data: formData,
             dataType: 'json', // If your PHP script returns JSON
             beforeSend: function() {
-                $(".formBox").css({ "opacity": "0.3" });
+                $(".middle-side-book").css({ "opacity": "0.4" });
                 $("#loader").show();
             },
             success: function(response) {
                 // Check the response for success or error message
                 if (response && response.success) {
-                    $("#response_data").html(response.message);
+                    $("#response_data").html(response.success);
                     console.log("Form submitted successfully.");
                     $("#download_catalog")[0].reset();
                 } else {
-                    console.error("Error: " + response.message);
+                    console.error("Error: " + response.error);
                 }
             },
             error: function(xhr, status, error) {
-                console.error("Error: " + error);
+                //console.error("Error:" + error);
+                console.error("AJAX Error: " + error);
+                $("#response_data").html("An error occurred. Please try again.");
             },
             complete: function() {
                 $("#download_catalog").show();
                 $("#loader").hide();
-                $(".formBox").css("opacity", 1);
+                $(".middle-side-book").css("opacity", 1);
             }
         });
     });

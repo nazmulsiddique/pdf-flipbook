@@ -1,8 +1,10 @@
 <?php
+sleep(3);
+header('Content-Type: application/json');
 // Check if it's a POST request
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Retrieve form data
-    $fullname = $_POST["fullname"];
+    $full_name = $_POST["full_name"];
     $email = $_POST["email"];
     $mobile = $_POST["mobile"];
     $message = $_POST["message"];
@@ -23,20 +25,19 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     // SQL query to insert data into the "catalog" table
-    $sql = "INSERT INTO catalog (fullname, email, mobile, message, catalog_type) VALUES ('$fullname', '$email', '$mobile', '$message', '$catalog_type')";
+    $sql = "INSERT INTO catalog (full_name, email, mobile, message, catalog_type) VALUES ('$full_name', '$email', '$mobile', '$message', '$catalog_type')";
     
     if (mysqli_query($conn, $sql)) {
         $response= "New record created successfully";
-      } else {
-        $response= "Error: " . $sql . "<br>" . mysqli_error($conn);
       }
 
     // Send a JSON response back to the client
-    header('Content-Type: application/json');
-    echo json_encode(array('message' => $response));
+
+    echo json_encode(array('success' => $response));
 } else {
     // Handle other types of requests (GET, etc.) if necessary
     // For example, you can return an error message
-    echo "Invalid request method.";
+    $response= "Invalid request method.";
+    echo json_encode(array('error' => $response));
 }
 ?>
