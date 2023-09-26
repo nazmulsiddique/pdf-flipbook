@@ -2,13 +2,17 @@
 	<div class="right-side">
 		<div class="container">
 			<img src="pics/acc-logo.png" alt="" width="200px">
-			<form id="download_catalog" action="">
+			<form id="download_catalog" class="formBox" action="">
 				<p><strong>Mail Me</strong></p>
-				<input type="text" id="fname" name="fullname" placeholder="Write Your name..">
+				<div id="loader">
+					<img src="pics/loader.gif">
+				</div>
+				<div id="response_data"></div>
+				<input type="text" id="fname" name="fullname" placeholder="Write Your name.." required>
 			
-				<input type="email" id="email" name="email" placeholder="Write Your email..">
+				<input type="email" id="email" name="email" placeholder="Write Your email.." required>
 			
-				<input type="number" id="mobile" name="mobile" placeholder="Write Your mobile..">
+				<input type="number" id="mobile" name="mobile" placeholder="Write Your mobile.." required>
 
 				<textarea id="message" name="message" placeholder="Write your message.." style="height:100px"></textarea>
 
@@ -35,27 +39,41 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-	$(document).ready(function() {
-		$("#download_catalog").submit(function(event) {
-		event.preventDefault();
-		
+$(document).ready(function() {
+    $("#download_catalog").submit(function(event) {
+        event.preventDefault();
 
-		var formData = $(this).serialize();
-		
-		$.ajax({
-			type: "POST",
-			url: "process.php",
-			data: formData,
-			success: function(response) {
-			console.log("Form submitted successfully.");
-			
-			$("#download_catalog")[0].reset();
-			},
-			error: function(xhr, status, error) {
+        var formData = $(this).serialize();
 
-			console.error("Error: " + error);
-			}
-		});
-		});
-	});
+        $.ajax({
+            type: "POST",
+            url: "process.php", // Update with the correct path
+            data: formData,
+            dataType: 'json', // If your PHP script returns JSON
+            beforeSend: function() {
+                $(".formBox").css({ "opacity": "0.3" });
+                $("#loader").show();
+            },
+            success: function(response) {
+                // Check the response for success or error message
+                if (response && response.success) {
+                    $("#response_data").html(response.message);
+                    console.log("Form submitted successfully.");
+                    $("#download_catalog")[0].reset();
+                } else {
+                    console.error("Error: " + response.message);
+                }
+            },
+            error: function(xhr, status, error) {
+                console.error("Error: " + error);
+            },
+            complete: function() {
+                $("#download_catalog").show();
+                $("#loader").hide();
+                $(".formBox").css("opacity", 1);
+            }
+        });
+    });
+});
+
 </script>
