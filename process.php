@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL^E_NOTICE);
 sleep(3);
 header('Content-Type: application/json');
 // Check if it's a POST request
@@ -29,15 +30,22 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     
     if (mysqli_query($conn, $sql)) {
         $response= "New record created successfully";
-      }
+      }else {
+        // Handle other types of requests (GET, etc.) if necessary
+        // For example, you can return an error message
+        $response= "An error occurred. Please try again.";
+        $msg= json_encode(array('error' => $response));
+    }
 
     // Send a JSON response back to the client
 
-    echo json_encode(array('success' => $response));
+    $msg= json_encode(array('success' => $response));
 } else {
     // Handle other types of requests (GET, etc.) if necessary
     // For example, you can return an error message
-    $response= "Invalid request method.";
-    echo json_encode(array('error' => $response));
+    $response= "An error occurred. Please try again.";
+    $msg= json_encode(array('error' => $response));
 }
+
+echo $msg;
 ?>

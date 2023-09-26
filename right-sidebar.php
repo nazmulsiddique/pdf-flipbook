@@ -60,14 +60,22 @@ $(document).ready(function() {
                     $("#response_data").html(response.success);
                     console.log("Form submitted successfully.");
                     $("#download_catalog")[0].reset();
+                    setTimeout(function() {
+                        $("#response_data").html("");
+                    }, 5000);
                 } else {
-                    console.error("Error: " + response.error);
+                    $("#response_data").html(response.error).css("color", "red !important");
+                    console.log("An error occurred");
+                    $("#download_catalog")[0].reset();
+                    setTimeout(function() {
+                        $("#response_data").html("");
+                    }, 5000);
                 }
             },
             error: function(xhr, status, error) {
                 //console.error("Error:" + error);
-                console.error("AJAX Error: " + error);
-                $("#response_data").html("An error occurred. Please try again.");
+              //  console.log("AJAX Error: " + error);
+              $("#response_data").html("An error occurred. Please try again.").css("color", "red");
             },
             complete: function() {
                 $("#download_catalog").show();

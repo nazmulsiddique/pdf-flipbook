@@ -301,8 +301,8 @@ nav a.active {
   z-index: 2000;
   display: none;
 }
-/* #response_data{
-  font-size: 20px;
+#response_data{
+  font-size: 16px;
   font-weight: 700;
   color: green;
-} */
+}
