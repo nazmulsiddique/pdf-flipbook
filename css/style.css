@@ -69,16 +69,17 @@ body {
   -ms-box-shadow: 0 0 20px #ccc;
   box-shadow: 0 0 20px #ccc;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 body{
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 .left-side-filter{
   width: 15%;
   height: 100vh;
   float: left;
-  background: #001D4D;
+  background: #F1F1F1;
   position: relative;
   z-index: 99999 !important;
 }
@@ -139,11 +140,16 @@ body{
   padding: 5px 10px;
 } */
 .info{
-  color: #fff;
+  color: #000;
   padding: 20px 10px 10px 30px;
 }
 .info h2{
   border-bottom: 2px solid #8c8c8c;
+  text-transform: uppercase;
+}
+.info p{
+  line-height: 22px;
+  margin: 5px 0px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -195,10 +201,11 @@ nav li {
 
 nav a {
   border-radius: 11px;
-  border: 1px solid #F3F3F3;
-  background: blue;
+  border: 1px solid #FFF;
+  background: #FFF;
+  filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.19));
   text-decoration: none;
-  color: #fff !important;
+  color: #000 !important;
   font-weight: bold;
   padding: 24px 15px;
   display:block;
@@ -207,7 +214,9 @@ nav a {
 }
 /* Highlight the active link */
 nav a.active {
-  background-color: blue;
+  border: 1px solid #FFF;
+  color:#FFF !important;
+  background: linear-gradient(180deg, #2378FB 0%, #0E49A5 100%);
   font-weight: bold;
   padding: 24px 15px;
   display:block;
@@ -218,7 +227,7 @@ nav a.active {
   .left-side-filter{
     width: 14%;
     float: left;
-    background: #001D4D;
+    background: #F1F1F1;
     z-index: 99999 !important;
     overflow: scroll;
     position: relative;
@@ -256,10 +265,11 @@ nav a.active {
   
   nav a {
     border-radius: 11px;
-    border: 1px solid #F3F3F3;
-    background: blue;
+    border: 1px solid #FFF;
+    background: #FFF;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.19));
     text-decoration: none;
-    color: #fff !important;
+    color: #000 !important;
     font-weight: bold;
     padding: 15px 10px;
     display:block;
@@ -268,7 +278,9 @@ nav a.active {
   }
   /* Highlight the active link */
   nav a.active {
-    background-color: blue;
+    border: 1px solid #FFF;
+    color:#FFF !important;
+    background: linear-gradient(180deg, #2378FB 0%, #0E49A5 100%);
     font-weight: bold;
     padding: 15px 10px;
     display:block;
@@ -281,7 +293,7 @@ nav a.active {
     width: 120px;
   }
   .info {
-    color: #fff;
+    color: #000;
     padding: 10px;
   }
   .info h2 {
