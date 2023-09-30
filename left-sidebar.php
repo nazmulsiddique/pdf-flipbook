@@ -3,7 +3,7 @@
     <header>
         <nav>
             <ul>
-                <img src="pics/logo-walton.png" alt="" width="200px">
+                <img src="pics/logo-walton.png" alt="">
                 <li><a href="index.php">Refrigerator</a></li>
                 <li><a href="ac.php">Air Conditioner</a></li>
                 <li><a href="fan.php">Fan</a></li>

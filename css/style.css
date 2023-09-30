@@ -99,7 +99,7 @@ body{
 }
 .left-side img {
   text-align: center;
-  padding: 30px 15px 70px 0px;
+  padding: 30px 15px 60px 0px;
 }
 /* .left-side ul{
   list-style: none;
@@ -153,7 +153,7 @@ body{
 }
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], [type=email], [type=number], select, textarea {
+.form-control {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
@@ -179,13 +179,39 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #135ed6;
 }
-
+.mobile{
+  width: 100%;
+  display: flex;
+}
+.number-prefix{
+  width: 30%;
+  float: left;
+  padding: 12px 3px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.number-postfix{
+  width: 70%;
+  float: left;
+  padding: 12px 3px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
 .right-side img{
-  padding: 30px 15px 30px 40px;;
+  padding: 3px 15px 50px 30px;
+}
+.download {
+  text-align: center;
 }
 .download p{
   text-align: center;
-  margin: 30px 5px 0px 5px;
+  margin: 10px 5px 0px 5px;
 }
 .left-side nav ul{
   list-style: none;
@@ -210,7 +236,6 @@ nav a {
   padding: 24px 15px;
   display:block;
   cursor: pointer;
-  opacity: 0.7;
 }
 /* Highlight the active link */
 nav a.active {
@@ -221,7 +246,6 @@ nav a.active {
   padding: 24px 15px;
   display:block;
   cursor: pointer;
-  opacity: 1;
 }
 @media (max-width: 1280px) {
   .left-side-filter{
@@ -274,7 +298,6 @@ nav a.active {
     padding: 15px 10px;
     display:block;
     cursor: pointer;
-    opacity: 0.7;
   }
   /* Highlight the active link */
   nav a.active {
@@ -285,7 +308,6 @@ nav a.active {
     padding: 15px 10px;
     display:block;
     cursor: pointer;
-    opacity: 1;
   }
   .right-side img{
     text-align: center;
