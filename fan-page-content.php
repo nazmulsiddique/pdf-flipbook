@@ -2,11 +2,41 @@
 		<div class="flipbook-viewport">
 			<div class="container">
 				<div class="flipbook">
-					<div style="background-image:url(pages/fan/fan-1.jpg)"></div>
-					<div style="background-image:url(pages/fan/fan-2.jpg)"></div>
-					<div style="background-image:url(pages/fan/fan-3.jpg)"></div>
-					<div style="background-image:url(pages/fan/fan-4.jpg)"></div>
-					<div style="background-image:url(pages/fan/fan-5.jpg)"></div>
+					<div style="background-image:url(pages/fan/01.jpg)"></div>
+					<div style="background-image:url(pages/fan/02.jpg)"></div>
+					<div style="background-image:url(pages/fan/03.jpg)"></div>
+					<div style="background-image:url(pages/fan/04.jpg)"></div>
+					<div style="background-image:url(pages/fan/05.jpg)"></div>
+					<div style="background-image:url(pages/fan/06.jpg)"></div>
+					<div style="background-image:url(pages/fan/07.jpg)"></div>
+					<div style="background-image:url(pages/fan/08.jpg)"></div>
+					<div style="background-image:url(pages/fan/09.jpg)"></div>
+					<div style="background-image:url(pages/fan/10.jpg)"></div>
+					<div style="background-image:url(pages/fan/11.jpg)"></div>
+					<div style="background-image:url(pages/fan/12.jpg)"></div>
+					<div style="background-image:url(pages/fan/13.jpg)"></div>
+					<div style="background-image:url(pages/fan/14.jpg)"></div>
+					<div style="background-image:url(pages/fan/15.jpg)"></div>
+					<div style="background-image:url(pages/fan/16.jpg)"></div>
+					<div style="background-image:url(pages/fan/17.jpg)"></div>
+					<div style="background-image:url(pages/fan/18.jpg)"></div>
+					<div style="background-image:url(pages/fan/19.jpg)"></div>
+					<div style="background-image:url(pages/fan/21.jpg)"></div>
+					<div style="background-image:url(pages/fan/22.jpg)"></div>
+					<div style="background-image:url(pages/fan/23.jpg)"></div>
+					<div style="background-image:url(pages/fan/24.jpg)"></div>
+					<div style="background-image:url(pages/fan/25.jpg)"></div>
+					<div style="background-image:url(pages/fan/26.jpg)"></div>
+					<div style="background-image:url(pages/fan/27.jpg)"></div>
+					<div style="background-image:url(pages/fan/28.jpg)"></div>
+					<div style="background-image:url(pages/fan/29.jpg)"></div>
+					<div style="background-image:url(pages/fan/30.jpg)"></div>
+					<div style="background-image:url(pages/fan/31.jpg)"></div>
+					<div style="background-image:url(pages/fan/32.jpg)"></div>
+					<div style="background-image:url(pages/fan/33.jpg)"></div>
+					<div style="background-image:url(pages/fan/34.jpg)"></div>
+					<div style="background-image:url(pages/fan/35.jpg)"></div>
+					<div style="background-image:url(pages/fan/36.jpg)"></div>
 				</div>
 			</div>
 		</div>

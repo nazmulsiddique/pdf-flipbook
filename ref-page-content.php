@@ -2,8 +2,8 @@
     <div class="flipbook-viewport">
         <div class="container">
             <div class="flipbook">
-                <div class="page" style="background-image:url(pages/refrigerator/0.jpg)"></div>
-                <div class="double" style="background-image:url(pages/refrigerator/1.jpg)"></div>
+                <!-- <div class="page" style="background-image:url(pages/refrigerator/0.jpg)"></div> -->
+                <div class="page" style="background-image:url(pages/refrigerator/1.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/2.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/3.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/4.jpg)"></div>
@@ -15,6 +15,25 @@
                 <div class="double" style="background-image:url(pages/refrigerator/10.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/11.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/13.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/14.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/15.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/16.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/17.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/18.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/19.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/20.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/21.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/22.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/23.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/24.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/25.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/26.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/27.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/28.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/29.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/30.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/31.jpg)"></div>
+                <div class="double" style="background-image:url(pages/refrigerator/32.jpg)"></div>
             </div>
         </div>
     </div>

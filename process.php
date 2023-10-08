@@ -29,6 +29,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $sql = "INSERT INTO catalog (full_name, email, mobile, message, catalog_type) VALUES ('$full_name', '$email', '$mobile', '$message', '$catalog_type')";
     
     if (mysqli_query($conn, $sql)) {
+        // if($catalog_type === 1){
+        //     $pdfLink = $baseUrl . 
+        // }
+        
+        // PDF link
+        // send Mail
+
         $response= "Submitted successfully";
       }else {
         // Handle other types of requests (GET, etc.) if necessary
