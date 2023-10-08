@@ -284,13 +284,13 @@
 				<input type="radio" id="acc_brand" name="catalog_type" value="acc_brand">
 				<label for="acc_brand">ACC Brand</label>
 				<input type="radio" id="all" name="catalog_type" value="all">
-				<label for="all">All Catalogs</label><br><br>
+				<label for="all">All Catalogue</label><br><br>
 			
 				<input type="submit" value="Send">
 			
 			</form>
 			<div class="download">
-				<p>Scan to Download the Catalog</p>
+				<p>Scan to Download the Catalogue</p>
 				<img src="pics/qr-code.png" alt="" width="200px">
 			</div>
 			</div>

@@ -7,8 +7,8 @@
                 <li><a href="index.php">Refrigerator</a></li>
                 <li><a href="ac.php">Air Conditioner</a></li>
                 <li><a href="fan.php">Fan</a></li>
-                <li><a href="#">Acc Brand</a></li>
-                <li><a href="#">All Catalog</a></li>
+                <li><a href="#">ACC Brand</a></li>
+                <li><a href="#">All Catalogue</a></li>
             </ul>
         </nav>
     </header>
