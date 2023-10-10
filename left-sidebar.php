@@ -8,7 +8,7 @@
                 <li><a href="index.php">Refrigerator</a></li>
                 <li><a href="ac.php">Air Conditioner</a></li>
                 <li><a href="fan.php">Fan</a></li>
-                <li><a href="#">ACC Brand</a></li>
+                <li><a href="acc.php">ACC Brand</a></li>
                 <li><a href="catalogues.php" target="_blank">All Catalogue</a></li>
                 <li><a href="https://waltonbd.com" target="_blank">Visit Our Website</a></li>
             </ul>
