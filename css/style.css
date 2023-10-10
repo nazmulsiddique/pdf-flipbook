@@ -93,13 +93,13 @@ body{
   height: 100vh;
   float: right;
   background: #F1F1F1;
-  padding: 20px;
+  padding: 10px;
   position: relative;
   z-index: 99999 !important;
 }
-.left-side img {
+.left-side a img {
   text-align: center;
-  padding: 30px 15px 60px 0px;
+  padding: 30px 15px 30px 45px;
 }
 /* .left-side ul{
   list-style: none;
@@ -204,7 +204,7 @@ input[type=submit]:hover {
   margin-bottom: 10px;
 }
 .right-side img{
-  padding: 3px 15px 50px 30px;
+  padding: 3px 15px 10px 30px;
 }
 .download {
   text-align: center;

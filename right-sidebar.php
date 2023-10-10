@@ -1,7 +1,7 @@
 <div class="right-side-filter">
 	<div class="right-side">
 		<div class="container">
-			<img src="pics/acc-logo.png" alt="">
+			<a href="http://theaccgroup.com" target="_blank"><img src="pics/acc-logo.png" alt=""></a>
 			<form id="download_catalog" action="">
 				<p><strong>Mail Me</strong></p>
 				<div id="loader">
@@ -282,7 +282,7 @@
 				<input type="radio" id="fan" name="catalog_type" value="fan">
 				<label for="fan">Fan</label>
 				<input type="radio" id="acc_brand" name="catalog_type" value="acc_brand">
-				<label for="acc_brand">ACC Brand</label>
+				<label for="acc_brand">ACC Brand</label><br><br>
 				<input type="radio" id="all" name="catalog_type" value="all">
 				<label for="all">All Catalogue</label><br><br>
 			
@@ -291,7 +291,7 @@
 			</form>
 			<div class="download">
 				<p>Scan to Download the Catalogue</p>
-				<img src="pics/qr-code.png" alt="" width="200px">
+				<img src="pics/qr-code.jpg" alt="" width="200px">
 			</div>
 			</div>
 	</div>
