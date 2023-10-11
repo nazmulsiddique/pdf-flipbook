@@ -7,6 +7,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Retrieve form data
     $full_name = $_POST["full_name"];
     $email = $_POST["email"];
+    $company_name = $_POST["company_name"];
+    $country_name = $_POST["country_name"];
     $mobile = $_POST["mobile"];
     $message = $_POST["message"];
     $catalog_type = $_POST["catalog_type"];
@@ -26,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     // SQL query to insert data into the "catalog" table
-    $sql = "INSERT INTO catalog (full_name, email, mobile, message, catalog_type) VALUES ('$full_name', '$email', '$mobile', '$message', '$catalog_type')";
+    $sql = "INSERT INTO catalog (full_name, email, company_name, country_name, mobile, message, catalog_type) VALUES ('$full_name', '$email', '$company_name', '$country_name', '$mobile', '$message', '$catalog_type')";
     
     if (mysqli_query($conn, $sql)) {
         // if($catalog_type === 1){

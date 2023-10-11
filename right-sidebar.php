@@ -129,7 +129,7 @@
                     <option value="81">Japan </option>
                     <option value="44">Jersey </option>
                     <option value="962">Jordan </option>
-                    <option value="7">Kazakhstan option>
+                    <option value="7">Kazakhstan </option>
                     <option value="254">Kenya </option>
                     <option value="686">Kiribati </option>
                     <option value="850">Korea, Democratic People's Republic of </option>
