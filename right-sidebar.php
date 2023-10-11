@@ -7,7 +7,7 @@
 				<div id="loader">
 					<img src="pics/lodar.gif">
 				</div>
-				<div id="response_data"></div><br>
+				<div id="response_data"></div>
 				<input type="text" class="form-control" id="full_name" name="full_name" placeholder="Write Your name..">
 			
 				<input type="email" class="form-control" id="email" name="email" placeholder="Write Your email.." required>
@@ -278,11 +278,11 @@
 				<input type="radio" id="refrigerator" name="catalog_type" value="refrigerator">
 				<label for="refrigerator">Refrigerator</label>
 				<input type="radio" id="air_conditioner" name="catalog_type" value="air_conditioner">
-				<label for="air_conditioner">Air Conditioner</label><br><br>
+				<label for="air_conditioner">Air Conditioner</label><br>
 				<input type="radio" id="fan" name="catalog_type" value="fan">
 				<label for="fan">Fan</label>
 				<input type="radio" id="acc_brand" name="catalog_type" value="acc_brand">
-				<label for="acc_brand">ACC Brand</label><br><br>
+				<label for="acc_brand">ACC Brand</label><br>
 				<!-- <input type="radio" id="all" name="catalog_type" value="all">
 				<label for="all">All Catalogue</label><br><br> -->
 			

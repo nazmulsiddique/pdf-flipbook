@@ -154,13 +154,13 @@ body{
 
 /* Style inputs with type="text", select elements and textareas */
 .form-control {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-bottom: 10px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  resize: vertical;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -270,10 +270,10 @@ nav a.active {
     position: relative;
     z-index: 99999 !important;
   }
-  .left-side img {
-    text-align: center;
-    padding: 15px 15px;
+  .left-side a img {
     width: 120px;
+    text-align: center;
+    padding: 30px 15px 30px 25px;
   }
   .left-side nav ul{
     list-style: none;
@@ -286,8 +286,13 @@ nav a.active {
   nav li {
       margin-bottom: 10px;
   }
-  
+  .info p {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 2px 0px;
+  }
   nav a {
+    font-size: 12px;
     border-radius: 11px;
     border: 1px solid #FFF;
     background: #FFF;
@@ -311,7 +316,7 @@ nav a.active {
   }
   .right-side img{
     text-align: center;
-    padding: 15px 15px;
+    padding: 0px 15px;
     width: 120px;
   }
   .info {
@@ -321,6 +326,43 @@ nav a.active {
   .info h2 {
     border-bottom: 2px solid #8c8c8c;
     font-size: 18px;
+  }
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #15499D;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+  }
+  #download_catalog label{
+    font-size: 12px;
+  }
+  .download p {
+    font-size: 12px;
+    margin: 5px;
+  }
+  .number-prefix{
+    padding: 8px 3px;
+    margin-bottom: 5px;
+  }
+  .number-postfix{
+    padding: 8px 3px;
+    margin-bottom: 5px;
+  }
+  #response_data{
+    font-size: 12px;
   }
 }
 #loader {
@@ -378,3 +420,8 @@ nav a.active {
    }
  
  }
+
+ @media (max-width: 990px) {
+ 
+  
+}

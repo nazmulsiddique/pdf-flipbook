@@ -4,7 +4,6 @@
         <a href="https://waltonbd.com" target="_blank"><img src="pics/logo-walton.png" alt=""></a>
         <nav>
             <ul>
-            
                 <li><a href="index.php">Refrigerator</a></li>
                 <li><a href="ac.php">Air Conditioner</a></li>
                 <li><a href="fan.php">Fan</a></li>
