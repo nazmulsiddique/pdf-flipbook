@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	<img src="https://waltonbd.com/image/catalog/category-banner/refrigerator/freezer-to-fridge-switch-whenever-you-need.jpg" alt="" class="img-fluid">
+	<img src="pics/banner.jpg" alt="" class="img-fluid">
 	<section id="home-info">
 		<div class="container">
 			<div class="row">
@@ -35,14 +35,14 @@
 				<div class="col-md-4 mb-5">
 					<div class="catalogue-box">
 					<h3>Refrigerator</h3>
-					<img src="pics/ref.jpg" class="img-fluid rounded py-3" alt="">					
+					<img src="pics/Walton-Fridge-Cover.jpg" class="img-fluid rounded py-3" alt="">					
 					<button class="btn btn-outline-dark">Download Catalogue</button>
 					</div>
 				</div>
 				<div class="col-md-4 mb-5">
 					<div class="catalogue-box">				
 					<h3>Air Conditioner</h3>
-					<img src="pics/ac.jpg" class="img-fluid rounded py-3" alt="">					
+					<img src="pics/AC-Cover-.jpg" class="img-fluid rounded py-3" alt="">					
 					<button class="btn btn-outline-dark">Download Catalogue</button>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 				<div class="col-md-4 mb-5">
 					<div class="catalogue-box">					
 					<h3>Fan</h3>
-					<img src="pics/tv.jpg" class="img-fluid rounded py-3" alt="">					
+					<img src="pics/Fan-Cover.jpg" class="img-fluid rounded py-3" alt="">					
 					<button class="btn btn-outline-dark">Download Catalogue</button>
 					</div>					
 				</div>				
@@ -60,14 +60,7 @@
 				<div class="col-md-4 mb-5">
 					<div class="catalogue-box">				
 					<h3>ACC Brand</h3>
-					<img src="pics/wm.jpg" class="img-fluid rounded py-3" alt="">					
-					<button class="btn btn-outline-dark">Download Catalogue</button>
-					</div>					
-				</div>
-				<div class="col-md-4 mb-5">
-					<div class="catalogue-box">					
-					<h3>All Catalogues</h3>
-					<img src="pics/wm.jpg" class="img-fluid rounded py-3" alt="">					
+					<img src="pics/ACC-Cover.jpg" class="img-fluid rounded py-3" alt="">					
 					<button class="btn btn-outline-dark">Download Catalogue</button>
 					</div>					
 				</div>				

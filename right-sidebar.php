@@ -283,8 +283,8 @@
 				<label for="fan">Fan</label>
 				<input type="radio" id="acc_brand" name="catalog_type" value="acc_brand">
 				<label for="acc_brand">ACC Brand</label><br><br>
-				<input type="radio" id="all" name="catalog_type" value="all">
-				<label for="all">All Catalogue</label><br><br>
+				<!-- <input type="radio" id="all" name="catalog_type" value="all">
+				<label for="all">All Catalogue</label><br><br> -->
 			
 				<input type="submit" value="Send">
 			
