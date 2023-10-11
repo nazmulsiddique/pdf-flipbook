@@ -75,22 +75,22 @@ body{
 @media (max-width: 1280px) {
 
 	.flipbook-viewport .flipbook{
-		width:662px;
-		height:400px;
-		left:-331px;
-		top:-200px;
+		width: 800px;
+		height:530px;
+		left:-400px;
+		top:-265px;
 	}
 	
 	.flipbook-viewport .page{
-		width:662px;
-		height:400px;
+		width:800px;
+		height:530px;
 		background-color:white;
 		background-repeat:no-repeat;
 		background-size:100% 100%;
 	}
 	.flipbook-viewport .double{
-		width:662px;
-		height:400px;
+		width:800px;
+		height:530px;
 		background-size:100% 100%;
 	}
 	
