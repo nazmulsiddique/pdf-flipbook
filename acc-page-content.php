@@ -98,4 +98,24 @@
 	}
 
 }
+@media (max-width: 1080px) {
+
+.flipbook-viewport .flipbook{
+	width:740px;
+	height:482px;
+	left:-370px;
+	top:-241px;
+	z-index: 0;
+}
+
+.flipbook-viewport .page{
+	width:447px;
+	height:482px;
+	background-color:white;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	z-index: 0;
+}
+
+}
 </style>

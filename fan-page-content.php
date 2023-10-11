@@ -84,15 +84,15 @@
 
 </script>
 <style>
-.flipbook-viewport .flipbook{
-	width:1200px;
-	height:780px;
-	left:-600px;
-	top:-390px;
-	z-index: 0;
-}
+	.flipbook-viewport .flipbook{
+		width:1200px;
+		height:780px;
+		left:-600px;
+		top:-390px;
+		z-index: 0;
+	}
 
-.flipbook-viewport .page{
+	.flipbook-viewport .page{
 		width:600px;
 		height:780px;
 		background-color:white;
@@ -104,11 +104,11 @@
 @media (max-width: 1280px) {
 
 	.flipbook-viewport .flipbook{
-	width:894px;
-	height:582px;
-	left:-447px;
-	top:-291px;
-	z-index: 0;
+		width:894px;
+		height:582px;
+		left:-447px;
+		top:-291px;
+		z-index: 0;
 	}
 
 	.flipbook-viewport .page{
@@ -121,4 +121,46 @@
 	}
 
 }
+@media (max-width: 1080px) {
+
+	.flipbook-viewport .flipbook{
+		width:740px;
+		height:482px;
+		left:-370px;
+		top:-241px;
+		z-index: 0;
+	}
+
+	.flipbook-viewport .page{
+		width:447px;
+		height:482px;
+		background-color:white;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		z-index: 0;
+	}
+
+}
+
+
+/* @media (max-width: 768px) {
+
+	.flipbook-viewport .flipbook{
+		width:500px;
+		height:325px;
+		left:-250px;
+		top:-163px;
+		z-index: 0;
+	}
+
+	.flipbook-viewport .page{
+		width:250px;
+		height:325px;
+		background-color:white;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		z-index: 0;
+	}
+
+} */
 </style>
