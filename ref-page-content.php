@@ -3,7 +3,7 @@
         <div class="container">
             <div class="flipbook">
                 <!-- <div class="page" style="background-image:url(pages/refrigerator/0.jpg)"></div> -->
-                <div class="page" style="background-image:url(pages/refrigerator/01.jpg)"></div>
+                <div class="page" style="background-image:url(pages/refrigerator/1.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/2.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/3.jpg)"></div>
                 <div class="double" style="background-image:url(pages/refrigerator/4.jpg)"></div>
